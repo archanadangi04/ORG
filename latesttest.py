@@ -4,7 +4,7 @@ import requests
 import re
 from params import organisations
 
-path = "https://github.com/archanadangi04/ORG.git"
+path = "datadog.csv"
 
 deflist = [["datadog_organization","name","email","handle","is_admin","is_disabled","is_verified","role","access_role"]]
 with open('orgnames.txt', 'r') as readFile:
